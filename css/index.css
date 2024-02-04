@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    background-color: #1E2943;
+    padding: 0.8% 4%;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 7%;
+}
+
+.navbar-left, .navbar-center, .navbar-right{
+    flex: 1;
+}
+
+.navbar-center{
+    text-align: center;
+}
+
+.navbar-right{
+    text-align: right;
+}
+
+.navbar a, .logout-btn {
+    color: white;
+    text-decoration: none; /* elimina la visibilidad link */
+    margin: 0 15px; 
+}
+
+.logout-btn {
+    background-color: #ffffff00;
+    cursor: pointer;
+    border: 1px solid white;
+    padding: 10px 20px;
+}
