@@ -1,0 +1,32 @@
+.historialBody {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.historialContenedor{
+    text-align: center;
+    padding: 8% 0px;
+}
+
+.tablaContenedor{
+    display: flex;
+    justify-content: center;
+    padding: 4% 0px;
+}
+
+.idEncabezado, .solicitudesEncabezado, .valesEncabezado, .dictamenEncabezado{
+    text-align: center;
+}
+
+.Tabla01{
+    background-color: rgba(51, 42, 177, 0.137);
+    border-radius: 15px;
+    padding: 15px 15px;
+}
+
+td{
+    background-color: rgb(255, 255, 255);
+    padding: 10px 50px;
+    border-radius: 7px;
+}

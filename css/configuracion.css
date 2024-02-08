@@ -1,0 +1,32 @@
+.configuracionBody{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.configuracionContenedor{
+    margin: 3% 5%;
+    padding: 2% 2%;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.opcionesContenedor{
+    display: flex;
+    /*background-color: rgba(0, 0, 0, 0.3);*/
+    border-radius: 20px;
+    padding: 20px;
+}
+
+p{
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+.opcionesIzq{
+    flex: 1;
+}
+
+.opcionesDer{
+    flex: 1;
+}
